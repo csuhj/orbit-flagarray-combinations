@@ -32,3 +32,5 @@ For example:
 ```
 $> python app.py https://www.tealgreenholidays.co.uk/OrbitAPI CloudDemo CloudDemo username password
 ```
+
+Finally - browse to http://localhost:8081 and off you go...
