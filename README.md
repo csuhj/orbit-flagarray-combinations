@@ -1,14 +1,14 @@
 # orbit-flagarray-combinations
 
-A very simple example application that connects to the Apteco Orbit API (see ) via the apteco python package.
+A very simple example application that connects to the Apteco Orbit API (see https://github.com/Apteco/AptecoAPIGuides) via the apteco python package (see https://github.com/Apteco/py-apteco)
 
 This will start up a Flask webserver on port 8081.  when you request the root page (e.g. http://localhost:8081) this will connect to an API running the demo "Holidays" dataset and product a 1D cube output of the Income variable.
 
-![Index page](./docs/index.png)
+![Index page](./docs/Index.png)
 
 You can also visit  http://localhost:8081/{variable_name} (where the named variable must be a plain selector variable) to see the details for that variable too.
 
-![Variable page](./docs/variable-page.png)
+![Variable page](./docs/Variable-page.png)
 
 I will look to extend this in the near future to support other cases.
 
